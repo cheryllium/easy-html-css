@@ -13,6 +13,4 @@ Click on "Intro to HTML" in the sidebar to get started. Have fun!
 
 ### Contact
 
-If you'd like to give feedback about the tutorial, or need help with any part, you can contact me on Discord at the username **cheryllium**. I'm happy to help.
-
-*By the way, this tutorial is an independent endeavor and I'm not affiliated with anyone, or any groups.*
+If you'd like to give feedback about the tutorial, or need help with any part, you can email me at <b>hello[at]cheshire.is</b>. I appreciate your feedback!
