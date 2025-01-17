@@ -26,7 +26,11 @@ The **value** of the `border` attribute has three parts:
 - `solid` - This is the style of the border. Solid means it will be a solid line. You can also have `dashed`, for a dashed line, `dotted` for a dotted line, or `inset` for a cool 3D effect. 
 - `#0f0#` - This is the color of the border, as a hexadecimal color code. 
 
-Try adding different borders to your header, content, and footer. You can try writing different values for each of the three parts: for example, try writing `10px` instead of `2px` for the width, try writing `dashed` instead of `solid`, and try picking a different hexadecimal color!
+<div class="try-it">
+
+<p>Try adding different borders to your header, content, and footer. You can try writing different values for each of the three parts: for example, try writing <code class="language-plaintext highlighter-rouge">10px</code> instead of <code class="language-plaintext highlighter-rouge">2px</code> for the width, try writing <code class="language-plaintext highlighter-rouge">dashed</code> instead of <code class="language-plaintext highlighter-rouge">solid</code>, and try picking a different hexadecimal color!</p>
+
+</div>
 
 ### Margin and Padding
 
@@ -49,6 +53,12 @@ If you try this out on your page, you'll see the element appear to shrink as it 
 ```
 
 Try it out! Now, you'll see that the space between the borders and the stuff inside of the header has increased. Padding refers to the space inside an element that's padding out its contents. Here, you can see that there are 20 pixels of space between the border and the text inside. 
+
+<div class="try-it">
+
+<p>If you didn’t follow along with the code above, give it a try now. First, add the line <code class="language-plaintext highlighter-rouge">margin: 20px;</code> to create 20 pixels of margin, and watch what happens. Then, try replacing it with <code class="language-plaintext highlighter-rouge">padding: 20px;</code> to see the difference. Finally, try writing it with both margin AND padding, and try adjusting them from 20 pixels to other amounts - for example, 5px or 50px.</p>
+
+</div>
 
 Note that some HTML elements have a bit of border and margin by default, so they might not behave exactly as you expect. For example, the `h1` tag has some top and bottom margin by default, so you can expect to see a little extra vertical space in this padding example.
 

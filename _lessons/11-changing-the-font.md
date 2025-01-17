@@ -39,7 +39,9 @@ What this does is tell the browser to first look for the Courier New font. But i
 
 **Helpful Tip** This list of fonts is called a **font stack**. The website [Modern Font Stacks](https://modernfontstacks.com/) has a whole bunch of good font stacks for you to choose from. Simply copy and paste one of their font stacks and you're all set!
 
-Try it yourself: Try adding a font to your `my_webpage.html` by adding `font-family` CSS to the `body` tag. You can use a font stack from Modern Font Stacks, or make up your own!
+<div class="try-it">
+<p>Try adding a font to your <code class="language-plaintext highlighter-rouge">my_webpage.html</code> by adding <code class="language-plaintext highlighter-rouge">font-family</code> CSS to the <code class="language-plaintext highlighter-rouge">body</code> tag. You can use a font stack from Modern Font Stacks, or make up your own!</p>
+</div>
 
 ### Font size
 
@@ -48,6 +50,14 @@ One last thing before we move on: changing the font size! This is really simple:
 ```
 body {
   font-size: 12pt;
+}
+```
+
+If you wanted to use pixels for the unit instead of points, change `pt` to `px`: 
+
+```
+body {
+  font-size: 12px;
 }
 ```
 

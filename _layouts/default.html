@@ -120,7 +120,7 @@
      
      /* Style code blocks and inline code */
      pre {
-         background-color: #eee;
+         background-color: #dce6ea;
          padding: 10px;
          width: 90%;
          margin-left: auto;
@@ -129,7 +129,7 @@
      }
 
      code {
-         background-color: #eee;
+         background-color: #dce6ea;
          padding: 5px;
      }
 
@@ -164,6 +164,28 @@
              margin: 0;
              border-radius: 0;
          }
+     }
+
+     /* "Try it yourself" sections */
+     .try-it {
+       border: 1px solid #ffd29d;
+       border-radius: 5px;
+       padding: 10px;
+       margin-bottom: 10px;
+       background-color: #fff1e2;
+     }
+     .try-it::before {
+       content: "Try it yourself!";
+       display: block;
+       background-color: #ffd29d; 
+       border-radius: 5px;
+       border-left: 3px solid #000;
+       border-right: 3px solid #000;
+       padding: 5px;
+       font-weight: bold;
+       font-style: italic;
+       font-size: 110%;
+       margin-bottom: 10px;
      }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

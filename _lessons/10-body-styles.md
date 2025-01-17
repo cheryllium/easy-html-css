@@ -17,5 +17,6 @@ body {
 
 The code above will change the background color of the page to #eee, a light gray, and change the font color to #f00, red. The syntax `// red` is called a **comment** - if you write two slashes `//` at the end of a line, anything you write after them will be ignored. You can use this to leave notes to yourself, for example, about what color your hex code is. 
 
-Try it! Open up your `my_webpage.html` and add the CSS above in between your `style` tags. What do you see?
-
+<div class="try-it">
+<p>Try it! Open up your <code class="language-plaintext highlighter-rouge">my_webpage.html</code> and add the CSS above in between your <code class="language-plaintext highlighter-rouge">style</code> tags. What do you see?</p>
+</div>

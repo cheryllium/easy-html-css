@@ -45,6 +45,8 @@ So for example, a simple page could look like this:
 </html>
 ```
 
-You can try copying this into a new file with a `.html` extension, and opening it in your browser to see what it says. You'll notice that it says "My Website" in the browser tab, which is the result of the `title` tag. Then, on the actual page, you'll see what's in the `body`. 
+<div class="try-it">
+<p>Try copying this into a new file with a <code class="language-plaintext highlighter-rouge">.html</code> extension, and open it in your browser to see what it says. You’ll notice that it says “My Website” in the browser tab, which is the result of the <code class="language-plaintext highlighter-rouge">title</code> tag. Then, on the actual page, you’ll see what’s in the <code class="language-plaintext highlighter-rouge">body</code>.</p>
+</div>
 
 Congratulations on sticking with me this far! You now know enough basic HTML to move on to the next section: basic CSS. 

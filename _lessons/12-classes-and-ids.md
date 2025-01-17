@@ -43,24 +43,23 @@ We style this just like the id, except we use a **period** instead of a hashtag 
 </style>
 ```
 
-### Try it Yourself
+<div class="try-it">
+<p>Try making an HTML page with a header, footer, and content. You might remember that, in the HTML section of the tutorial, we discussed a <code class="language-plaintext highlighter-rouge">div</code> tag which defines a section of a page. This is the perfect time to use it! The header, footer, and content sections should each be a <code class="language-plaintext highlighter-rouge">div</code>:</p>
 
-Try making an HTML page with a header, footer, and content. You might remember that, in the HTML section of the tutorial, we discussed a `div` tag which defines a section of a page. This is the perfect time to use it! The header, footer, and content sections should each be a `div`: 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;body&gt;
+  &lt;div id="header"&gt;
+    &lt;h1&gt;Welcome to my Webpage!&lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div id="content"&gt;
+    &lt;p&gt;I'm learning HTML and CSS!&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id="footer"&gt;
+    &lt;p&gt;Website made with love.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+</code></pre></div></div>
 
-```
-<body>
-  <div id="header">
-    <h1>Welcome to my Webpage!</h1>
-  </div>
-  <div id="content">
-    <p>I'm learning HTML and CSS!</p>
-  </div>
-  <div class="footer">
-    <p>Website made with love.</p>
-  </div>
-</body>
-```
+<p>Take a moment to understand what is happening here: There are three <code class="language-plaintext highlighter-rouge">div</code> tags, with the IDs of <code class="language-plaintext highlighter-rouge">header</code>, <code class="language-plaintext highlighter-rouge">content</code>, and <code class="language-plaintext highlighter-rouge">footer</code>. We’ve written a little bit of HTML inside of each <code class="language-plaintext highlighter-rouge">div</code>. Whatever CSS you write for the <code class="language-plaintext highlighter-rouge">div</code> will apply to everything that is inside it by default!</p>
 
-Take a moment to understand what is happening here: There are three `div` tags, with the IDs of `header`, `content`, and `footer`. We've written a little bit of HTML inside of each `div`. Whatever CSS you write for the `div` will apply to everything that is inside it by default!
-
-Now, try using CSS to give each section a different style. You can give them different background colors, font colors, and fonts. You can even give them different widths and heights. Give it a try!
+<p>Now, try using CSS to give each section a different style. You can give them different background colors, font colors, and fonts. You can even give them different widths and heights. Give it a try!</p>
+</div>

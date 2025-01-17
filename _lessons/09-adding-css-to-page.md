@@ -25,8 +25,12 @@ Now you might be wondering... where does the `style` tag go in an HTML page? The
 
 Now you should have a basic idea of what CSS is, how to use it, and what you can do with it. Just like we styled the strong tag, we can also style other HTML tags, like `p`, `h1`, `em`, and more. In the remainder of this tutorial, you'll see some other CSS attributes as well.
 
-**Try it!** 
+<div class="try-it">
 
-1. Copy the above code into a new `.html` file and open it in your web browser. 
-2. Use an online color picker (search for "hexadecimal color picker online") to find more color codes, and try changing the color and background color of the text. 
-3. Try adding a header (`<h1>` tag) and try changing the color and background color of this with CSS as well. (Hint: the code we have changes the `strong` tag, so your code will look very similar to that, but with `h1` instead of `strong`.)
+<ol>
+  <li>Copy the above code into a new <code class="language-plaintext highlighter-rouge">.html</code> file and open it in your web browser.</li>
+  <li>Use an online color picker (search for “hexadecimal color picker online”) to find more color codes, and try changing the color and background color of the text.</li>
+  <li>Try adding a header (<code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> tag) and try changing the color and background color of this with CSS as well. (Hint: the code we have changes the <code class="language-plaintext highlighter-rouge">strong</code> tag, so your code will look very similar to that, but with <code class="language-plaintext highlighter-rouge">h1</code> instead of <code class="language-plaintext highlighter-rouge">strong</code>.)</li>
+</ol>
+
+</div>

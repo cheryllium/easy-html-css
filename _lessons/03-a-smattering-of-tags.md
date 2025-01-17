@@ -27,16 +27,19 @@ For example, check out the following code. Can you guess what it will look like?
 </ol>
 ```
 
-You can run this code yourself to find out: 
+You can run this code yourself to find out!
 
-1. Create a file named `my_webpage.html`. You can actually name it anything you want, but make sure it ends in `.html`!
-2. Copy the above example into the file, and save the file.
-3. Open the file in a web browser to see your HTML in action!
-
-Once you have this file, you can make changes to it and then refresh the page in your browser to see your changes. Try it: 
-
-1. Add `<h2>Page Subtitle</h2>` on a new line after the `h1` code. 
-2. Save the file. 
-3. Refresh the page in your web browser to see what your new line of code does!
-
-*A quick note on editing HTML files:* The best way to edit HTML files is with a **text editor** such as [Notepad++](https://notepad-plus-plus.org/) (if on Windows) or [Sublime Text](https://www.sublimetext.com/). You have to use a text editor instead of something like Microsoft Word, because an HTML file is just text, without special formatting. You can use a simple program like Notepad, but I recommend something with more features such as the ability to display different parts of your code in different colors to help you read it (called *syntax highlighting*).
+<div class="try-it">
+<ol>
+    <li>Create a file named <code class="language-plaintext highlighter-rouge">my_webpage.html</code>. You can actually name it anything you want, but make sure it ends in <code class="language-plaintext highlighter-rouge">.html</code>!</li>
+    <li>Copy the above example into the file, and save the file.</li>
+    <li>Open the file in a web browser to see your HTML in action!</li>
+</ol>
+<p>Once you have this file, you can make changes to it and then refresh the page in your browser to see your changes. Try it: </p>
+<ol>
+    <li>Add <code class="language-html highlighter-rouge">&lt;h2&gt;Page Subtitle&lt;/h2&gt;</code> on a new line after the <code class="language-plaintext highlighter-rouge">h1</code> code.</li>
+    <li>Save the file.</li>
+    <li>Refresh the page in your web browser to see what your new line of code does!</li>
+</ol>
+<p><i>A quick note on editing HTML files:</i> The best way to edit HTML files is with a <b>text editor</b> such as <a href="https://notepad-plus-plus.org/">Notepad++</a> (if on Windows) or <a href="https://www.sublimetext.com/">Sublime Text</a>. You have to use a text editor instead of something like Microsoft Word, because an HTML file is just text, without special formatting. You can use a simple program like Notepad, but I recommend something with more features such as the ability to display different parts of your code in different colors to help you read it (called <i>syntax highlighting</i>).</p>
+</div>

@@ -20,16 +20,24 @@ The `br` tag is super simple - that's all there is to it. A more interesting sta
 
 This is an example of how to use a tag with multiple attributes, in this case, the width, height, and image source. As you can see, it's quite simple - each attribute is in the form of `ATTRIBUTE="VALUE"`, just as we learned in the last section, with spaces to separate them.
 
-What will the code above look like? Try it yourself! 
+What will the code above look like? It's time to...
 
-1. Open your `my_webpage.html` file from before.
-2. Add the `img` code above somewhere in the file, and save it.
-3. Open the file in your web browser (or refresh the page if you already have it open), and voila!
+<div class="try-it">
 
-Now, try saving the image to your computer and loading it from your computer instead: 
+<ol>
+  <li>Open your <code class="language-plaintext highlighter-rouge">my_webpage.html</code> file from before.</li>
+  <li>Add the <code class="language-plaintext highlighter-rouge">img</code> code above somewhere in the file, and save it.</li>
+  <li>Open the file in your web browser (or refresh the page if you already have it open), and voila!</li>
+</ol>
 
-1. Right-click the image and save it as `html_logo.png`. Save it in **the same folder** as your `my_webpage.html` file. 
-2. Change your `img` tag to the following: `<img width="100" height="100" src="html_logo.png">`
-3. Now refresh the page in your web browser and the image should still show up! Except now it's using the image file on your computer. 
+<p>Now, try saving the image to your computer and loading it from your computer instead:</p>
 
-Now you know how to save images from the internet to put them in your website. 
+<ol>
+  <li>Right-click the image and save it as <code class="language-plaintext highlighter-rouge">html_logo.png</code>. Save it in <strong>the same folder</strong> as your <code class="language-plaintext highlighter-rouge">my_webpage.html</code> file.</li>
+  <li>Change your <code class="language-plaintext highlighter-rouge">img</code> tag to the following: <code class="language-plaintext highlighter-rouge">&lt;img width="100" height="100" src="html_logo.png"&gt;</code></li>
+  <li>Now refresh the page in your web browser and the image should still show up! Except now it’s using the image file on your computer.</li>
+</ol>
+
+</div>
+
+Now you know how to save images from the internet to put them in your website!
