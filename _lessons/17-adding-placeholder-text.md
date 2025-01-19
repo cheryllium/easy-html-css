@@ -147,3 +147,5 @@ Now, our links will each take up their own row.
 <div class="screenshot">
     <img src="/assets/ch17_5.png" />
 </div>
+
+You can download the file for this lesson [here]().
