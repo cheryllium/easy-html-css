@@ -6,9 +6,9 @@ layout: default
 
 Congratulations on making it to the end of this tutorial! You've learned the basics of web development and have put your knowledge to work making your first project. 
 
-Now you're ready to go forth and make new websites that are entirely your own! I encourage you to imagine your own websites from scratch, and create something fun from scratch on your own computer. For example, you could make an About Me website with multiple pages about you, your hobbies, and your interests. You could make a fan site for something you're into. Or you could even make a website to support a cause!
+Now you're ready to go forth and make new websites that are entirely your own! You could make an About Me website with multiple pages about you, your hobbies, and your interests. You could make a fan site for something you're into. Or you could even make a website to support a cause!
 
-This simple tutorial was meant as a starting point, a springboard for you to jump off. From here, the sky's the limit. Don't be afraid to go out and learn how to do more things by searching for them online. For example, maybe you want to set a tiling image as your page background. You can easily search up how to write the CSS for a background image. Remember that CSS attributes will always look like `ATTRIBUTE: VALUE;` and you will be all set. 
+This simple tutorial was meant as a starting point, a springboard for you to jump off. From here, the sky's the limit. Don't be afraid to go out and learn how to do more things by searching for them online. For example, maybe you want to set a tiling image as your page background. You can search for "CSS tiling background image" to find out how. Remember that CSS rules will always look like `PROPERTY: VALUE;` and you will be all set. 
 
 If you do want to put your website online, here are two FREE places you can do it: 
 
