@@ -33,7 +33,7 @@ However, don't just copy it directly into your code! Recall that paragraphs have
 
 ```
 <div id="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia enim ex, nec pharetra urna lacinia luctus. Morbi pellentesque odio at elit malesuada, ut fermentum erat finibus. Sed quis sapien dignissim, vestibulum nulla vel, commodo neque. Suspendisse lacinia cursus rutrum. Suspendisse et cursus ipsum, vel egestas massa. Vivamus aliquam urna molestie, accumsan nulla ut, tincidunt nulla. Suspendisse facilisis lobortis mauris at venenatis. Donec malesuada pellentesque neque non posuere. Duis rutrum venenatis nisl, ac placerat dui ultrices in. In orci leo, egestas vel eros rutrum, porttitor ullamcorper urna.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscin gelit. Suspendisse lacinia enim ex, nec pharetra urna lacinia luctus. Morbi pellentesque odio at elit malesuada, ut fermentum erat finibus. Sed quis sapien dignissim, vestibulum nulla vel, commodo neque. Suspendisse lacinia cursus rutrum. Suspendisse et cursus ipsum, vel egestas massa. Vivamus aliquam urna molestie, accumsan nulla ut, tincidunt nulla. Suspendisse facilisis lobortis mauris at venenatis. Donec malesuada pellentesque neque non posuere. Duis rutrum venenatis nisl, ac placerat dui ultrices in. In orci leo, egestas vel eros rutrum, porttitor ullamcorper urna.</p>
   <p>Vestibulum sed enim nunc. Curabitur lectus risus, euismod vitae massa sit amet, semper imperdiet tellus. Suspendisse laoreet ut risus et scelerisque. Quisque a rutrum ipsum. Cras finibus ac nisl sit amet molestie. Proin cursus nec felis eget imperdiet. Proin sed rhoncus arcu, a viverra justo. In hac habitasse platea dictumst. Duis imperdiet, leo vel tincidunt maximus, est ipsum tempor erat, tristique vehicula tortor ligula at purus. Praesent non tincidunt massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam bibendum consectetur est scelerisque eleifend. Ut pulvinar gravida nibh, ac rutrum libero efficitur sit amet. Vivamus iaculis aliquam neque, nec gravida mauris ornare id.</p>
   <p>Vivamus eu rutrum metus. Vestibulum pulvinar pretium dolor nec lobortis. Proin consequat diam nulla, id dapibus enim elementum vel. Maecenas vestibulum, metus id laoreet finibus, tellus magna euismod magna, id volutpat nisi lorem ac nisi. Vivamus semper sollicitudin lobortis. Sed nibh nisi, dapibus in rhoncus nec, ultrices non sem. Aliquam ut odio non diam facilisis molestie. Maecenas mi erat, varius at nulla ac, posuere rutrum eros. Praesent commodo risus enim, a tempus ex rhoncus eu.</p>
 </div>
@@ -146,6 +146,51 @@ Now, our links will each take up their own row.
 
 <div class="screenshot">
     <img src="/assets/ch17_5.png" />
+</div>
+
+### Selecting Only Sidebar Links
+
+There is one problem with the code we just added: since it will apply to every `a` tag on the page, it will apply to links in the content as well, not just the sidebar! Let's try adding a link to the content just to see: 
+
+```
+<div id="content">
+  <p>Here is a <a href="#">link inside of my content text</a> to see what happens.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscin gelit. [...and so on]
+</div>
+```
+
+Uh oh - this doesn't look right. The link is showing up on its own line, instead of in line with the text.
+
+<div class="screenshot">
+  <img src="/assets/ch17_6.png" />
+</div>
+
+We need a way to apply our CSS to *just* the `a` tags in the sidebar, not on the entire page. It's time to introduce the word *CSS selector.*
+
+A CSS selector is the part of the CSS that we've been writing *before* the curly braces, to tell the CSS what elements to apply our rules to. 
+
+```
+SELECTOR {
+  PROPERTY: VALUE;
+}
+```
+
+So far, our selectors have been simple tags (such as `div`) or elements with IDs (such as `#header`). However, selectors can be more complex than that. CSS understands all sorts of special syntax that allows you to be more specific about what you select on the page. 
+
+One syntax is this: `#sidebar a`. Yes, there is a space in between them, but this is a single selector! When you put a *space* in between two things like this, it selects all of the second thing that's inside the first. `#sidebar a` means, "select every `a` that is inside of `#sidebar`. It's as simple as that!
+
+Let's *modify* our CSS from above: 
+
+```
+#sidebar a {
+  display: block; 
+}
+```
+
+Now our sidebar links look good, but the link inside of our content is not affected. 
+
+<div class="screenshot">
+  <img src="/assets/ch17_7.png" />
 </div>
 
 You can download the file for this lesson [here](), and view a live example [here](/project/index-2.html).

@@ -23,7 +23,7 @@ Links are underlined by default, but this can be removed with CSS. Normally, und
 - `text-decoration: line-through;` specifies that the text should have a line through it: ~~like this~~
 - `text-decoration: none;` specifies that the text should not be underlined. 
 
-In your CSS, find the rule for the `a` tag. You should already have some code here setting it to `display: block;` from a previous lesson. Go ahead and add the rule: `text-decoration: none;`
+In your CSS, find the code that selects `#sidebar a`, in other words, every `a` tag that's in the `#sidebar`. You should already have some code here setting these links to `display: block;` from a previous lesson. Go ahead and add the rule: `text-decoration: none;`
 
 #### Add Font and Background Colors
 
@@ -75,15 +75,17 @@ It's okay to have more than one property that starts with `border-`. You can put
 
 CSS doesn't just allow us to style links, but it even has a feature where we can put different CSS on the link **in different states**, including when the link is being hovered over. 
 
-To style a hovered link, simply write a rule for `a:hover` instead of `a` in our CSS. The `:hover` here is called a "pseudo-class" and it's a magical way of saying "select an `a` tag only when it is hovered". 
+To style a hovered link, we simple write `a:hover` instead of `a` in our CSS. The `:hover` here is called a "pseudo-class" and it's a magical way of saying "select an `a` tag only when it is hovered". 
 
 To test this out, let's add a rule that puts a line through the link when it is hovered over, using the `text-decoration` property. 
 
 ```
-a:hover {
+#sidebar a:hover {
   text-decoration: line-through; 
 }
 ```
+
+The selector `#sidebar a:hover` means: "select every `a` tag that is being hovered over, and is in the `#sidebar` element".
 
 Now, refresh the page and try hovering over the link. There will now be a line through it. However, notice that all of the CSS we wrote for the `a` tag still applies. That's because the link is still using an `a` tag. The browser will apply all of that first, and then add the styles for `a:hover` over top of that. 
 
