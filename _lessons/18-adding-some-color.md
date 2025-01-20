@@ -100,4 +100,4 @@ Now, this is what I have for our webpage. I went with a blue color scheme for th
   <img src="/assets/ch18_5.png" />
 </div>
 
-You can download the file I ended up with [here](). 
+You can download the file I ended up with [here](), and view a live example [here](/project/index-3.html).

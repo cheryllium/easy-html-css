@@ -148,4 +148,4 @@ Now, our links will each take up their own row.
     <img src="/assets/ch17_5.png" />
 </div>
 
-You can download the file for this lesson [here]().
+You can download the file for this lesson [here](), and view a live example [here](/project/index-2.html).

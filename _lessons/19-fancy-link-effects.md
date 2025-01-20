@@ -94,3 +94,5 @@ It will use the `a:hover` rules for any properties they both have. For example, 
 </div>
 
 The tweaks we made on this page are just some ideas for what you can do. This is your webpage, so don't be afraid to experiment! For example, what if you changed the background or border colors on hover instead? 
+
+You can download the code so far [here](), and view a live example [here](/project/index-4.html).
