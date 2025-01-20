@@ -17,7 +17,7 @@ Let's customize our links by:
 
 #### Remove the Default Underline
 
-Links are underlined by default, but this can be removed with CSS. Normally, underline is controlled by the `text-decoration` property, which sets decorative lines on text. You can actually control a lot with this property, but we will focus on two possible values: 
+Links are underlined by default, but this can be removed with CSS. Normally, underline is controlled by the `text-decoration` property, which sets decorative lines on text. You can actually control a lot with this property, but we will focus on these three possible values: 
 
 - `text-decoration: underline;` specifies that the text should be underlined.
 - `text-decoration: line-through;` specifies that the text should have a line through it: ~~like this~~
