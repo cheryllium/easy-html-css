@@ -82,9 +82,7 @@ div {
 
 Now, we can see that the header and footer are taking up the full width of the page. The sidebar and content are only as wide as the text inside of them. (That is a side effect of them being inside a <i>flex container</i>.) We can use the CSS `width` property to give them custom widths instead. 
 
-Let's just say we want the things on our page to be 800 pixels wide. To make something 800 pixels wide, we'd use `width: 800px;` in our CSS. `width` is the property, and `800px` is the value. Here, `px` stands for pixels. It is possible to specify widths with other units, but pixels is the most common. 
-
-Since the sidebar and content are side-by-side, let's make them 200 and 600 pixels respectively, since they need to add to 800. The header and footer, we can just set to 800 pixels. Don't forget to add the width to our `#container` as well! The `#container` contains both the sidebar and content, so its width is 800 pixels. Our CSS will look like this: 
+Let's just say we want the things on our page to be 800 pixels wide. To make something 800 pixels wide, we'd use `width: 800px;` in our CSS. `width` is the property, and `800px` is the value. Here, `px` stands for pixels. It is possible to specify widths with other units, but pixels is the most common. Let's set the width of our header, container, and footer to 800 pixels in our CSS, like so:
 
 ```
 #container {
@@ -97,6 +95,11 @@ Since the sidebar and content are side-by-side, let's make them 200 and 600 pixe
 #footer {
   width: 800px; 
 }
+```
+
+Since the sidebar and content are side-by-side inside the container, their widths would need to add to 800 pixels. Let's make them 200 and 600 pixels respectively. Our CSS for the sidebar and content will look like this: 
+
+```
 #sidebar {
   width: 200px;
 }
