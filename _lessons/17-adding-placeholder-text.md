@@ -177,7 +177,7 @@ SELECTOR {
 
 So far, our selectors have been simple tags (such as `div`) or elements with IDs (such as `#header`). However, selectors can be more complex than that. CSS understands all sorts of special syntax that allows you to be more specific about what you select on the page. 
 
-One syntax is this: `#sidebar a`. Yes, there is a space in between them, but this is a single selector! When you put a *space* in between two things like this, it selects all of the second thing that's inside the first. `#sidebar a` means, "select every `a` that is inside of `#sidebar`. It's as simple as that!
+One syntax is this: `#sidebar a`. Yes, there is a space in between them, but this is a single selector! It's just composed of two selectors, `#sidebar` and `a`. When you put a *space* in between two selectors like this, it forms a new selector that selects all of the second thing that's inside the first. `#sidebar a` means, "select every `a` that is inside of `#sidebar`". It's as simple as that!
 
 Let's *modify* our CSS from above: 
 
