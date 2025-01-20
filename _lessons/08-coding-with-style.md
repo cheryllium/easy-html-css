@@ -24,13 +24,17 @@ That probably sounded a little confusing, but it should make more sense with an 
 </style>
 ```
 
-Notice how we have `strong` right in front of the curly braces. This tells us that we're changing the way the `strong` tag affects the text. Inside of the curly braces, we can list our **CSS properties** in the format: 
+Notice how we have `strong` right in front of the curly braces. This tells us that we're changing the way the `strong` tag affects the text. In technical terms, this is called a **selector**, and we say that our CSS is *selecting* the `strong` tag.  
+
+Inside of the curly braces, we can list our **CSS properties** in the format `property: value;`, like this: 
 
 ```
-property: value;
+selector {
+  property: value;
+}
 ```
 
-In this case, the **property** is `color` and the **value** is `#eeeeee`. 
+Make sure you put the colon and semicolon in the right spots. In the example above, the **property** is `color` and the **value** is `#eeeeee`. 
 
 <div style="border:1px solid #666;border-radius:5px;padding:20px;">
     <p><b>Quick note:</b> The value <code>#eeeeee</code> represents a color in a special way that computers can understand. The format is a hashtag symbol (<code>#</code>) followed by six numbers or letters. The technical term for it is a <b>hexadecimal color code</b>. You can use the color picker below to find out the <b>color code</b> for any color, to use it in your CSS.</p>

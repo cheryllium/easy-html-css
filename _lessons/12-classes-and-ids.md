@@ -25,7 +25,7 @@ Then, in the CSS, we can style this. For example, we could give a header a width
 </style>
 ```
 
-This code will style everything with `id="header"` (which should only be one thing!) A note about the new attributes here: `width` and `height` can be specified either in pixels (px) or in percentages, in which case it is the percentage of the browser's width or height. (There are a few other options too, but we don't have to worry about them now.)
+This code will select everything with `id="header"` (which should only be one thing!) A note about the new properties here: `width` and `height` can be specified in pixels (px) or in percentages, among other options. The percentages refer to the size of whatever the element is inside of. Since the `#header` element is not inside of another element, the percentages refer to the browser's width and height.
 
 CSS classes work almost the same way, except you can have **multiple** elements on a page with the same class. You would specify a class using the HTML attribute class. For instance, say we have a class called "red":
 
@@ -42,6 +42,8 @@ We style this just like the id, except we use a **period** instead of a hashtag 
 }
 </style>
 ```
+
+To recap, a **CSS selector** can be the name of a tag, but it can also be the name of an ID or class. When it's an ID, we put `#` before the name, and when it's a class, we put `.` before the name. 
 
 <div class="try-it">
 <p>Try making an HTML page with a header, footer, and content. You might remember that, in the HTML section of the tutorial, we discussed a <code class="language-plaintext highlighter-rouge">div</code> tag which defines a section of a page. This is the perfect time to use it! The header, footer, and content sections should each be a <code class="language-plaintext highlighter-rouge">div</code>:</p>
