@@ -28,6 +28,8 @@ The first thing we'll do, before we start writing any project code, is to create
 
 The CSS for our project will go in-between the `style` tags, and the HTML for everything displayed on the page will go in between the `body` tags. 
 
+Go ahead and save this in a new file with a `.html` extension. You can name the file anything you'd like, but the standard file name for a website's landing page is `index.html`. This name is historical, and refers to how the index is the first place you'd look if you were searching for something in a book. 
+
 ### Code the Layout with Divs
 
 Before we start writing any code, we should first draw what we want our basic layout to look like. For this project, we will have a header, footer, sidebar and content. We'll place the header and footer at the top and bottom, and we'll place the sidebar and content side-by-side in between. The sidebar will go on the left, and content on the right. 
