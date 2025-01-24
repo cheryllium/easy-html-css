@@ -85,13 +85,13 @@ div {
 }
 ```
 
-Now, we can see that the header and footer are taking up the full width of the page. The sidebar and content are only as wide as the text inside of them. (That is a side effect of them being inside a <i>flex container</i>.) We can use the CSS `width` property to give them custom widths instead. 
+Now, we can see that the header and footer are taking up the full width of the page. The sidebar and content are only as wide as the text inside of them. (That is a side effect of them being inside a <i>flex container</i>.) 
 
 <div class="screenshot">
   <img src="/assets/ch16_25.png" />
 </div>
 
-Let's just say we want the things on our page to be 800 pixels wide. To make something 800 pixels wide, we'd use `width: 800px;` in our CSS. `width` is the property, and `800px` is the value. Here, `px` stands for pixels. It is possible to specify widths with other units, but pixels is the most common. Let's set the width of our header, container, and footer to 800 pixels in our CSS, like so:
+We can use the CSS `width` property to give them custom widths instead. Let's just say we want the things on our page to be 800 pixels wide. To make something 800 pixels wide, we'd use `width: 800px;` in our CSS. `width` is the property, and `800px` is the value. Here, `px` stands for pixels. It is possible to specify widths with other units, but pixels is the most common. Let's set the width of our header, container, and footer to 800 pixels in our CSS, like so:
 
 ```
 #container {
