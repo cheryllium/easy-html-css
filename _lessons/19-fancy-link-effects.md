@@ -88,7 +88,7 @@ The selector `#sidebar a:hover` means: "select every `a` tag that is being hover
 
 Now, refresh the page and try hovering over the link. Now, it will be underlined when we hover. However, notice that all of the CSS we wrote for `#sidebar a` still applies: the display block, colors, borders and spacing. That's because the link is still an `a` tag in the `#sidebar`, even when it is hovered over. The browser will apply the styles for `#sidebar a` first, and then add the styles for `#sidebar a:hover` over top of that. 
 
-For properties defined by both, it will go with the `a:hover` rules because that selector is more specific. For example, we already `text-decoration: none;` on the selector that only contains the `a` tag. Our `a:hover` rule changes this for hovered links, so they appear underlined, but everything else stays the same. 
+For properties defined by both, it will go with the `a:hover` rules because that selector is more specific. For example, we already added `text-decoration: none;` on the selector that only contains the `a` tag. Our `a:hover` rule changes this for hovered links, so they appear underlined, but everything else stays the same. 
 
 <div class="screenshot">
   <img src="/assets/ch19_1.png" />
