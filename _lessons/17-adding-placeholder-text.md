@@ -32,7 +32,7 @@ Since these are placeholders, one trick we can do is to set these to `"#"`, whic
 </div>
 ```
 
-Next up is our content, which we can fill in with Lorem Ipsum text. There are many Lorem Ipsum generators online, and if you want to have some fun with it, there are even themed ones online that generate text about cupcakes, zombies, bacon and more. For this example, I'll just use the standard [Lorem Ipsum Generator](https://www.lipsum.com/) to generate 3 paragraphs of text.
+Next up is our content, which we can fill in with placeholder text. The standard text that most people use for placeholder purposes is called "Lorem Ipsum", which is basically just a bunch of fake Latin that looks like it might be real text, but doesn't actually mean anything. There are many Lorem Ipsum generators online, and if you want to have some fun with it, there are even themed ones online that generate text about cupcakes, zombies, bacon and more. For this example, I'll just use the standard [Lorem Ipsum Generator](https://www.lipsum.com/) to generate 3 paragraphs of fake text.
 
 However, don't just copy it directly into your code! Recall that paragraphs have to go inside of `p` tags, which stands for paragraph tag. Let's add that to our content now. 
 
