@@ -17,10 +17,9 @@ Let's customize our links by:
 
 #### Remove the Default Underline
 
-Links are underlined by default, but this can be removed with CSS. Normally, underline is controlled by the `text-decoration` property, which sets decorative lines on text. You can actually control a lot with this property, but we will focus on these three possible values: 
+Links are underlined by default, but this can be removed with CSS. Normally, underline is controlled by the `text-decoration` property, which sets decorative lines on text. You can actually control a lot with this property, but we will focus on these two possible values: 
 
 - `text-decoration: underline;` specifies that the text should be underlined.
-- `text-decoration: line-through;` specifies that the text should have a line through it: ~~like this~~
 - `text-decoration: none;` specifies that the text should not be underlined. 
 
 In your CSS, find the code that selects `#sidebar a`, in other words, every `a` tag that's in the `#sidebar`. You should already have some code here setting these links to `display: block;` from a previous lesson. Go ahead and add the rule: `text-decoration: none;`
@@ -77,19 +76,19 @@ CSS doesn't just allow us to style links, but it even has a feature where we can
 
 To style a hovered link, we simple write `a:hover` instead of `a` in our CSS. The `:hover` here is called a "pseudo-class" and it's a magical way of saying "select an `a` tag only when it is hovered". 
 
-To test this out, let's add a rule that puts a line through the link when it is hovered over, using the `text-decoration` property. 
+To test this out, let's add a rule that underlines the link when it is hovered over, using the `text-decoration` property. 
 
 ```
 #sidebar a:hover {
-  text-decoration: line-through; 
+  text-decoration: underline;
 }
 ```
 
 The selector `#sidebar a:hover` means: "select every `a` tag that is being hovered over, and is in the `#sidebar` element".
 
-Now, refresh the page and try hovering over the link. There will now be a line through it. However, notice that all of the CSS we wrote for the `a` tag still applies. That's because the link is still using an `a` tag. The browser will apply all of that first, and then add the styles for `a:hover` over top of that. 
+Now, refresh the page and try hovering over the link. Now, it will be underlined when we hover. However, notice that all of the CSS we wrote for `#sidebar a` still applies: the display block, colors, borders and spacing. That's because the link is still an `a` tag in the `#sidebar`, even when it is hovered over. The browser will apply the styles for `#sidebar a` first, and then add the styles for `#sidebar a:hover` over top of that. 
 
-It will use the `a:hover` rules for any properties they both have. For example, we already `text-decoration: none;` on our `a` tag. Our `a:hover` rule changes this for hovered links, but everything else stays the same. 
+For properties defined by both, it will go with the `a:hover` rules because that selector is more specific. For example, we already `text-decoration: none;` on the selector that only contains the `a` tag. Our `a:hover` rule changes this for hovered links, so they appear underlined, but everything else stays the same. 
 
 <div class="screenshot">
   <img src="/assets/ch19_1.png" />

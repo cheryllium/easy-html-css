@@ -165,19 +165,19 @@ Uh oh - this doesn't look right. The link is showing up on its own line, instead
   <img src="/assets/ch17_6.png" />
 </div>
 
-We need a way to apply our CSS to *just* the `a` tags in the sidebar, not on the entire page. It's time to introduce the word *CSS selector.*
+We need a way to apply our CSS to *just* the `a` tags in the sidebar, not on the entire page. 
 
-A CSS selector is the part of the CSS that we've been writing *before* the curly braces, to tell the CSS what elements to apply our rules to. 
+To refresh your memory: A **CSS selector** is the part of the CSS that we've been writing *before* the curly braces, to tell the CSS what elements to apply our rules to. 
 
 ```
-SELECTOR {
-  PROPERTY: VALUE;
+selector {
+  property: value;
 }
 ```
 
-So far, our selectors have been simple tags (such as `div`) or elements with IDs (such as `#header`). However, selectors can be more complex than that. CSS understands all sorts of special syntax that allows you to be more specific about what you select on the page. 
+So far in this project, our selectors have been simple tags (such as `div`) or elements with IDs (such as `#header`). However, selectors can be more complex than that. CSS understands all sorts of special syntax that allows you to be more specific about what you select on the page. 
 
-One syntax is this: `#sidebar a`. Yes, there is a space in between them, but this is a single selector! It's just composed of two selectors, `#sidebar` and `a`. When you put a *space* in between two selectors like this, it forms a new selector that selects all of the second thing that's inside the first. `#sidebar a` means, "select every `a` that is inside of `#sidebar`". It's as simple as that!
+One syntax is this: `#sidebar a`. This selector is composed of two selectors, `#sidebar` and `a`. They have a *space* in between them, with **no comma**. When you put a *space* in between two selectors like this, it forms a new selector that selects all of the second thing that's inside the first. `#sidebar a` means, "select every `a` that is **inside of** `#sidebar`". It's as simple as that!
 
 Let's *modify* our CSS from above: 
 

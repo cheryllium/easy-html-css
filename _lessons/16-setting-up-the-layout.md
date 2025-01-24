@@ -16,6 +16,7 @@ The first thing we'll do, before we start writing any project code, is to create
 <!DOCTYPE html>
 <html>
   <head>
+    <title>My Website</title>
     <style type="text/css">
       (Your CSS goes here!)
     </style>
@@ -26,7 +27,7 @@ The first thing we'll do, before we start writing any project code, is to create
 </html>
 ```
 
-The CSS for our project will go in-between the `style` tags, and the HTML for everything displayed on the page will go in between the `body` tags. 
+The CSS for our project will go in-between the `style` tags in the `head`, and the HTML for everything displayed on the page will go in between the `body` tags. We also add a `title` tag to the `head` in order to display a page title in the browser tab. 
 
 Go ahead and save this in a new file with a `.html` extension. You can name the file anything you'd like, but the standard file name for a website's landing page is `index.html`. This name is historical, and refers to how the index is the first place you'd look if you were searching for something in a book. 
 

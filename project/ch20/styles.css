@@ -46,5 +46,5 @@ body {
   border-right: 5px solid #ffffff;           
 }
 #sidebar a:hover {
-  text-decoration: line-through; 
+  text-decoration: underline; 
 }
