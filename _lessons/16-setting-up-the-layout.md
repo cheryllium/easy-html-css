@@ -35,7 +35,9 @@ Go ahead and save this in a new file with a `.html` extension. You can name the 
 
 Before we start writing any code, we should first draw what we want our basic layout to look like. For this project, we will have a header, footer, sidebar and content. We'll place the header and footer at the top and bottom, and we'll place the sidebar and content side-by-side in between. The sidebar will go on the left, and content on the right. 
 
-(img)
+<div style="text-align: center">
+  <img src="/assets/ch16_1.png" />
+</div>
 
 The way to translate this into code is to think of each section as its own `div`. To make it clear what each `div` is, we can give it a custom ID. So we can start our code by writing a `div` for each section: 
 
