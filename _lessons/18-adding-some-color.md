@@ -38,7 +38,7 @@ Now, either under it or to the side, you'll see a separate section that has all 
   <img src="/assets/ch18_2.png" />
 </div>
 
-**Note** You might see some CSS here that you didn't write. I have some in my screenshot. This code comes from browser extensions and can be safely ignored. 
+**Note** You might see some CSS here that you didn't write. This extra CSS code (if you have it) comes from browser extensions and can be safely ignored. 
 
 The CSS you did write is there too, however! And not only can you see it here, but you can also edit it and see changes on the page immediately. Next to the `#ffffff`, there is a little white circle or square. Click on it to bring up a color picker. Try using it to choose a different color. As you click on different colors, the background color of the page will change in real time!
 
