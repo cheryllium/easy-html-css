@@ -57,7 +57,7 @@ Next, let's add some backgrounds and borders to each page section using the insp
 Find the section of CSS that starts with just `#header`, and then move your mouse right under the last rule (`text-align: center;` in my screenshot) and click. A small text box will appear where you can type a new CSS rule. 
 
 <div style="text-align: center">
-  <img src="/assets/ch18_4.png" />
+  <img src="/assets/ch18_4.gif" />
 </div>
 
 Type `background-color` and then hit the TAB key. It will automatically insert a colon and move your cursor after the colon. Type `#ffffff` and hit enter. Now, you should see that the header of your page has a white background. 
@@ -67,7 +67,7 @@ Now, click on the white circle to open the color picker. You will see a little e
 Click on the background of the page to change the header's background color to the page background color. Now, go back to the color picker and adjust it to be a little darker. The eyedropper is useful when you want to base the color you're picking off a color that's already on the page; for example, if you want it to be a different shade of the same color. 
 
 <div style="text-align: center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VY_j6jYW0hs?si=zBayU8iP9y_ntzCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <img src="/assets/ch18_video1.gif" />
 </div>
 
 Don't forget to go back and write the CSS into your file when you are done.
