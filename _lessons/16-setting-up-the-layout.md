@@ -100,7 +100,7 @@ Let's just say we want the things on our page to be 800 pixels wide. To make som
 }
 ```
 
-Since the sidebar and content are side-by-side inside the container, their widths would need to add to 800 pixels. Let's make them 200 and 600 pixels respectively. Our CSS for the sidebar and content will look like this: 
+Since the sidebar and content are side-by-side inside the container, their widths would need to add to 800 pixels. Let's make them 200 and 600 pixels, respectively. Our CSS for the sidebar and content will look like this: 
 
 ```
 #sidebar {
