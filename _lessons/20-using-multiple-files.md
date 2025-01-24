@@ -16,10 +16,11 @@ In your editor, create a new file named `styles.css`. You can actually name it a
 
 Now, open your HTML file and copy everything in between the `<style type="text/css">` and `</style>` tags. **Do not include the style tags; only copy what is in between them.** Go ahead and paste that into your CSS file, and save it in the **same folder** as your HTML file. 
 
-Next, go ahead and delete the CSS from your HTML file. Delete the entire style tag and everything in it. Now, the `<head>` of your HTML file should be totally empty: 
+Next, go ahead and delete the CSS from your HTML file. Delete the entire style tag and everything in it. Now, the `<head>` of your HTML file should have nothing in it except the title:
 
 ```
 <head>
+  <title>My Website</title>
 </head>
 ```
 
@@ -34,6 +35,7 @@ The link tag always goes inside of the document's `<head>`, since it's not meant
 
 ```
 <head>
+  <title>My Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 ```
@@ -44,13 +46,14 @@ Go ahead and load your HTML file in your browser. You'll see that your layout, c
 
 At last, it's time to learn how to expand your website to multiple pages! Let's create an "About" page, a very common page for websites to have. Go ahead and create a new file named `about.html`. Copy the code from your `index.html` file (or whatever you named the file you've been working in) into this file. We are copying the code because we want to use the same layout, so all of the divs should be the same. 
 
-The general layout will be the same, but we'll change the content. Below, I've changed the text in the title, subtitle, and content of the page: 
+The general layout will be the same, but we'll change the content. Below, I've changed the text in the title, headings, and content of the page: 
 
 ```
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" href="styles.css">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div id="header">
@@ -100,4 +103,4 @@ Finally, let's edit the About page so that its sidebar has a link back to the ho
 
 Here, I changed the link `href` to go back to our `index.html` file. If you named your file something different, be sure to use your actual file name here. I also updated the link text to "Home". 
 
-And.... voila! With multiple pages, this is now a true web*site*, not just a web*page* anymore... and we've reached the end of our project. You can view my finished project example [here](), and download the final files [here](). 
+And.... voila! With multiple pages, this is now a true web*site*, not just a web*page* anymore... and we've reached the end of our project. You can view my finished project example [here](/project/ch20/), and download the final files [here](). 
