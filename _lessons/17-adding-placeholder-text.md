@@ -13,9 +13,14 @@ Now, we are ready to begin filling in the layout with some placeholder text. Fir
 </div>
 ```
 
-Next, let's add a few fake links to the sidebar using the `a` tag, which stands for anchor tag. Eventually, we can use these to link to more pages in our website, or other sites we like. For now, they will be placeholders so that we can style them. 
+Next, let's add a few fake links to the sidebar using the `a` tag, which stands for "anchor" tag. Eventually, we can use these to link to more pages in our website, or other sites we like. For now, they will be placeholders so that we can style them. 
 
-The `href` attribute is used to specify which URL it links to. It's important to set this to something in our placeholders, because links that don't go anywhere will actually look different on the page. We want to see what links that go somewhere look like. 
+Recall that, to use the `a` tag, we need to give it a special attribute called `href`. For example:
+```
+<a href="URL goes here">This text will show up as a link on the page.</a>
+```
+
+The `href` attribute is used to specify which URL the `a` tag links to. It's important to set this to something in our placeholders, because links that don't go anywhere will actually look different on the page. We want to see what links that go somewhere look like. 
 
 Since these are placeholders, one trick we can do is to set these to `"#"`, which is a way of linking to the current page. 
 
