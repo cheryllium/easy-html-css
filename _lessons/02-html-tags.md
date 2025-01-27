@@ -23,7 +23,7 @@ You can place these tags inside of each other. This is called **nesting tags** i
 Here, the word *supernova* is affected by only the `em` tag, but the word *explosion* is affected by both the `em` and `strong` tags. This is illustrated by the diagram below: 
 
 <div style="text-align:center">
-    <img src="/assets/ch02_diagram.png" style="width:600px;max-width:100%;border:1px solid #eee" />
+    <img src="/assets/ch02_diagram.png" style="width:600px;" />
 </div>
 
 In this diagram, everything in between the `em` tags is underlined in green, and everything in between the `strong` tags is underlined in pink. The word *supernova* is affected by only the `em` tag, but the word *explosion* has both a pink and green underline, and is affected by both tags. 

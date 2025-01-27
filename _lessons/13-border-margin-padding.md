@@ -4,13 +4,13 @@ lesson: 13
 layout: default
 ---
 
-Let's introduce a few more attributes you can use to style the `header`, `content`, and `footer` from the last section. Using CSS, we can give each section a fancy border, a margin, and some padding. 
+Let's introduce a few more **properties** you can use to style the `header`, `content`, and `footer` from the last section. Using CSS, we can give each section a fancy border, a margin, and some padding. 
 
 While you're working through this section, be sure to follow along using the HTML code from the last section to see all of the code in action!
 
 ### Border
 
-The `border` CSS attribute looks like this: 
+The `border` CSS property looks like this: 
 
 ```
 #header {
@@ -20,7 +20,7 @@ The `border` CSS attribute looks like this:
 
 (Remember, `// green` is a **comment** which means everything after the `//` will be ignored.) 
 
-The **value** of the `border` attribute has three parts: 
+The **value** of the `border` property has three parts: 
 
 - `2px` - This is how wide the border is, in pixels. 
 - `solid` - This is the style of the border. Solid means it will be a solid line. You can also have `dashed`, for a dashed line, `dotted` for a dotted line, or `inset` for a cool 3D effect. 
@@ -64,7 +64,7 @@ Note that some HTML elements have a bit of border and margin by default, so they
 
 ### Partial borders, etc
 
-Finally, what if you only want there to be a border on the bottom of the element? Or what if you want to only put margin on the top of an element, or only pad one side? For the `border`, `margin`, and `padding` attributes, you can specify a single side by writing `-top`, `-bottom`, `-left`, or `-right` after the attribute. For example: 
+Finally, what if you only want there to be a border on the bottom of the element? Or what if you want to only put margin on the top of an element, or only pad one side? For the `border`, `margin`, and `padding` properties, you can specify a single side by writing `-top`, `-bottom`, `-left`, or `-right` after the property name. For example: 
 
 ```html
 #header {

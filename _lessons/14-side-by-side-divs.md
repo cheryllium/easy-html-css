@@ -40,6 +40,6 @@ Now, we need to put some CSS code on the `main` div that says, "put everything i
 }
 ```
 
-In short, this enables something called "flexbox" on the div, which is a modern way to arrange layouts in CSS. By default, something with `display: flex` will display everything in it side-by-side. 
+In short, this enables something called "flexbox" on the div, which is a modern way to arrange layouts in CSS. By default, something with `display: flex` will display everything in it side-by-side. (However, flexbox is a whole system for arranging things and - as the name suggests - what you can do with it is much more flexible.)
 
 Since this is a basic tutorial, we won't delve any further into flexbox. I just wanted to give you this piece of code so that you have a way of arranging divs side-by-side in your pages for now. If you would like to learn more about flexbox, I recommend checking out the awesome interactive tutorial [Flexbox Froggy](https://flexboxfroggy.com/). 

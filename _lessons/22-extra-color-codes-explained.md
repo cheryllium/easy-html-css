@@ -1,6 +1,6 @@
 ---
 title: Color Codes Explained
-lesson: 16
+lesson: 22
 layout: default
 ---
 

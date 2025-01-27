@@ -6,164 +6,170 @@
     <style type="text/css">
      /* Reset some default margin and padding */
      body, p {
-         margin: 0;
-         padding: 0;
+       margin: 0;
+       padding: 0;
      }
      * {
-         box-sizing: border-box;
+       box-sizing: border-box;
      }
 
      /* Style for the whole page */
      body {
-         font-family: sans-serif;
-         display: flex;
-         background-color: #333;
-         flex-direction: column;
-         min-height: 100vh;
-         padding-left: 20px;
-         padding-right: 20px;
-         border: 6px solid;
-         border-image-source: linear-gradient(to left, #d70, #570404);
-         border-image-slice: 1;
+       font-family: sans-serif;
+       display: flex;
+       background-color: #333;
+       flex-direction: column;
+       min-height: 100vh;
+       padding-left: 20px;
+       padding-right: 20px;
+       border: 6px solid;
+       border-image-source: linear-gradient(to left, #d70, #570404);
+       border-image-slice: 1;
      }
 
      /* Header */
      #header {
-         padding-left: 20px;
+       padding-left: 20px;
      }
 
      #header a {
-         color: #d70;
-         text-decoration: none;
+       color: #d70;
+       text-decoration: none;
      }
 
      /* Sidebar (nav) and Content Section */
      #main {
-         display: flex;
-         flex-direction: row;
-         flex: 1;
-         overflow: auto;
-         padding-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       flex: 1;
+       overflow: auto;
+       padding-bottom: 20px;
      }
 
      nav {
-         color: white;
-         width: 250px;
-         padding-left: 20px;
+       color: white;
+       width: 250px;
+       padding-left: 20px;
      }
 
      nav a {
-         display: block;
-         color: white;
-         text-decoration: none;
-         padding: 5px 10px;
-         transition: background-color 0.3s ease; /* Add transition effect */
+       display: block;
+       color: white;
+       text-decoration: none;
+       padding: 5px 10px;
+       transition: background-color 0.3s ease; /* Add transition effect */
      }
 
      /* Background color hover effect for navbar links */
      nav a:hover {
-         background-color: #555; /* Darker gray */
+       background-color: #555; /* Darker gray */
      }
 
      nav a.current {
-         background-color: #d70;
+       background-color: #d70;
      }
 
      section {
-         flex: 2;
-         padding: 20px;
-         margin-left: 20px;
-         background-color: #fff;
-         border-radius: 15px;
-         overflow: auto;
-         flex-direction: column;
-         display: flex;
+       flex: 2;
+       padding: 20px;
+       margin-left: 20px;
+       background-color: #fff;
+       border-radius: 15px;
+       overflow: auto;
+       flex-direction: column;
+       display: flex;
      }
 
      /* Next Button at the bottom right */
      div.next {
-         margin-top: auto;
-         text-align: right;
-         padding: 10px;
-         background-color: #f5f5f5;
+       margin-top: auto;
+       text-align: right;
+       padding: 10px;
+       background-color: #f5f5f5;
      }
 
      div.next a {
-         color: #333;
-         text-decoration: none;
-         transition: color 0.3s ease;
+       color: #333;
+       text-decoration: none;
+       transition: color 0.3s ease;
      }
 
      /* Colorful hover effect for next button link */
      div.next a:hover {
-         color: #d70;
+       color: #d70;
      }
 
      /* Add margins to paragraphs */
      p, ol, ul {
-         margin-bottom: 15px;
-         line-height: 1.3rem;
+       margin-bottom: 15px;
+       line-height: 1.3rem;
      }
 
      h1, h2, h3, h4 {
-         font-family: monospace;
+       font-family: monospace;
      }
      h1 {
-         font-size: 2rem;
+       font-size: 2rem;
      }
      h2 {
-         font-size: 1.5rem;
+       font-size: 1.5rem;
      }
      h3 {
-         font-size: 1.3rem;
+       font-size: 1.3rem;
+       color: #d70;
+     }
+     h4 {
+       font-size: 1rem;
+       margin-top: 25px;
      }
      
      /* Style code blocks and inline code */
      pre {
-         background-color: #dce6ea;
-         padding: 10px;
-         width: 90%;
-         margin-left: auto;
-         margin-right: auto;
-         margin-bottom: 15px;
+       background-color: #dce6ea;
+       padding: 10px;
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 15px;
+       text-wrap: wrap; 
      }
 
      code {
-         background-color: #dce6ea;
-         padding: 5px;
+       background-color: #dce6ea;
+       padding: 5px;
      }
 
      pre > code {
-         padding: 0;
+       padding: 0;
      }
 
      ul > li {
-         margin-bottom: 15px;
+       margin-bottom: 15px;
      }
      
      /* Responsive adjustments for smaller screens */
      @media (max-width: 768px) {
-         body {
-             padding: 0;
-         }
-         
-         /* Single column layout */
-         #main {
-             flex-direction: column;
-         }
+       body {
+         padding: 0;
+       }
+       
+       /* Single column layout */
+       #main {
+         flex-direction: column;
+       }
 
-         /* Reset width and padding for nav on mobile */
-         nav {
-             width: 100%;
-             padding: 10px;
-         }
+       /* Reset width and padding for nav on mobile */
+       nav {
+         width: 100%;
+         padding: 10px;
+       }
 
-         /* Reorder elements for mobile view */
-         section {
-             order: -1;
-             margin: 0;
-             border-radius: 0;
-         }
+       /* Reorder elements for mobile view */
+       section {
+         order: -1;
+         margin: 0;
+         border-radius: 0;
+       }
      }
 
      /* "Try it yourself" sections */
@@ -187,6 +193,19 @@
        font-size: 110%;
        margin-bottom: 10px;
      }
+
+     /* Screenshot images */
+     .screenshot {
+       text-align: center; 
+     }
+     .screenshot > img {
+       width: 700px;
+       max-width: 90%;
+     }
+     img {
+       max-width: 100%;
+       border: 1px solid #eee;
+     }
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="An easy HTML and CSS tutorial meant to help you get started making websites fast">
@@ -201,6 +220,7 @@
         {% for lesson in site.lessons %}
         {% if lesson.title == 'Intro to HTML' %}<h3>HTML</h3>{% endif %}
         {% if lesson.title == 'Intro to CSS' %}<h3>CSS</h3>{% endif %}
+        {% if lesson.title == 'Setting up the Layout' %}<h3>Your First Project</h3>{% endif %}
         {% if lesson.title == 'Color Codes Explained' %}<h3>Appendix</h3>{% endif %}
         {% if page.url == lesson.url %}<a href="{{ lesson.url }}" class="current">{{ lesson.title }}</a>
         {% else %}<a href="{{ lesson.url }}">{{ lesson.title }}</a>{% endif %}
@@ -211,7 +231,7 @@
         <div>
           {{ content }}
         </div>
-        {% if page.lesson < 15 %}
+        {% if page.lesson < 21 %}
         <div class="next">
           <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
         </div>
