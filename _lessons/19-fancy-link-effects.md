@@ -96,4 +96,4 @@ For properties defined by both, it will go with the `a:hover` rules because that
 
 The tweaks we made on this page are just some ideas for what you can do. This is your webpage, so don't be afraid to experiment! For example, what if you changed the background or border colors on hover instead? 
 
-You can download the code so far [here](), and view a live example [here](/project/index-4.html).
+You can download the code so far [here](https://github.com/cheryllium/easy-html-css/tree/main/project/ch19), and view a live example [here](/project/ch19/).

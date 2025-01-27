@@ -103,4 +103,4 @@ Finally, let's edit the About page so that its sidebar has a link back to the ho
 
 Here, I changed the link `href` to go back to our `index.html` file. If you named your file something different, be sure to use your actual file name here. I also updated the link text to "Home". 
 
-And.... voila! With multiple pages, this is now a true web*site*, not just a web*page* anymore... and we've reached the end of our project. You can view my finished project example [here](/project/ch20/), and download the final files [here](). 
+And.... voila! With multiple pages, this is now a true web*site*, not just a web*page* anymore... and we've reached the end of our project. You can view my finished project example [here](/project/ch20/), and download the final files [here](https://github.com/cheryllium/easy-html-css/tree/main/project/ch20). 

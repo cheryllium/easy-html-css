@@ -162,4 +162,4 @@ Now, everything is centered on the page, and our basic layout is complete.
     <img src="/assets/ch16_4.png" />
 </div>
 
-You can download the file we have so far [here](), and view a live example [here](/project/index-1.html).
+You can download the file we have so far [here](https://github.com/cheryllium/easy-html-css/blob/main/project/ch16/index.html), and view a live example [here](/project/ch16/).

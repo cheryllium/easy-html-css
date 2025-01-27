@@ -198,4 +198,4 @@ Now our sidebar links look good, but the link inside of our content is not affec
   <img src="/assets/ch17_7.png" />
 </div>
 
-You can download the file for this lesson [here](), and view a live example [here](/project/index-2.html).
+You can download the file for this lesson [here](https://github.com/cheryllium/easy-html-css/blob/main/project/ch17/index.html), and view a live example [here](/project/ch17/).

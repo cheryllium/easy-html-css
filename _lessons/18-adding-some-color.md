@@ -100,4 +100,4 @@ Now, this is what I have for our webpage. I went with a blue color scheme for th
   <img src="/assets/ch18_5.png" />
 </div>
 
-You can download the file I ended up with [here](), and view a live example [here](/project/index-3.html).
+You can download the file I ended up with [here](https://github.com/cheryllium/easy-html-css/blob/main/project/ch18/index.html), and view a live example [here](/project/ch18/).
