@@ -8,10 +8,10 @@ Tags get more fun once you have a couple to play with. Here are some basic tags 
 
 - `em` - This stands for **emphasis** and is used when you want to emphasize text. By default, this will render as italic.
 - `strong` - This is used for text that is **strongly important**. By default, this renders as bold.
-- `h1` - This stands for **header 1** and is the largest type of header, or page title. There are also tags `h2` through `h6`. They get progressively smaller, and are used for subheaders or subtitles. By default, this will render as bold, large text on its own line.
+- `h1` - This stands for **heading 1** and is the most important heading, or page title. There are also tags `h2` through `h6`, which are used for subheadings or subtitles. `h1` is the most important, and `h2` through `h6` get progressively less important, which means they usually get smaller in size - though that's not an absolute rule. By default, this will render as bold, large text on its own line.
 - `p` - This stands for **paragraph** and should be used to enclose paragraphs of text. By default, this will have the effect of pressing enter on your keyboard twice before the paragraph.
 - `ol` and `ul` - These are **ordered list** and **unordered lists**, in other words: **numbered lists** and **bulleted lists**. Inside the list, each item should be within an `li` (**list item**) tag. 
-- `div` - This stands for **division**, in other words, a **section** of the page. This is a versatile tag used to organize more complex HTML into sections. We will use this one more in the CSS section.
+- `div` - This stands for **division**, which you can think of like a section of the page. This is a versatile tag used to organize more complex HTML into groups of elements. We will use this one more in the CSS section.
 
 For example, check out the following code. Can you guess what it will look like?
 
