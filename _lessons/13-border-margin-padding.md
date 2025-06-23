@@ -14,11 +14,11 @@ The `border` CSS property looks like this:
 
 ```
 #header {
-  border: 2px solid #00ff00; // green
+  border: 2px solid #00ff00; /* green */
 }
 ```
 
-(Remember, `// green` is a **comment** which means everything after the `//` will be ignored.) 
+(Remember, `/* green */` is a **comment** which means it will be ignored.) 
 
 The **value** of the `border` property has three parts: 
 
